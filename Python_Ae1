@@ -1,0 +1,31 @@
+# # 팰린드롬
+# inString = input("입력 : ")
+# inString = inString.lower()
+# answer: str = "false"
+# i = 0
+# j = -1
+# while True:
+#     if i == len(inString) // 2:
+#         answer = "true"
+#         break
+#
+#     if inString[i] != inString[j]:
+#         break
+#
+#     i += 1
+#     j -= 1
+# print(answer)
+
+# 문자열 뒤집기
+# def reversestring(s: list[str]) -> None:
+#     #    print(s[::-1]) , a[:] = a[::-1]
+#     s.reverse()
+#
+#
+# inString = ["a","b","c","d","e"]
+#
+# reversestring(inString)
+# print(inString)
+
+#로그 파일 재정렬
+
