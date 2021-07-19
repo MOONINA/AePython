@@ -28,4 +28,29 @@
 # print(inString)
 
 #로그 파일 재정렬
+import collections
+from typing import List
+
+# logs: list[str] = ["dig1 8 1 5 1","lef1 art can", 'dig2 3 6', "let2 own kit dig", "let3 art zero"]
+# result, digit = [],[]
+#
+# for i in logs:
+#     if i.split()[1].isdigit():
+#         digit.append(i)
+#     else:
+#         result.append(i)
+# result.sort(key=lambda x: (x.split()[1:], x.split()[0]))
+#
+# result+=digit
+#
+# print(result)
+# import re
+#
+# paragraph = "Bob hit a ball, the hit BALL flew far after it was hit."
+# banned = ["hit"]
+# words = [word for word in re.sub(r'[^\w]', ' ', paragraph).lower().split()
+#             if word not in banned
+#          ]
+# count = collections.Counter(words)
+# print(count.most_common(1)[0][0])
 
